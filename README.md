@@ -39,3 +39,19 @@
 
 ## Python Matplotlib
 
+
+
+## NumPy
+
+
+
+## Pandas
+
+
+
+## SciPy
+
+
+
+
+
