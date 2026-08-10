@@ -5,7 +5,6 @@
 ## Basic Python
 
 - Variable
-
 - Operator
   - Arithmetic
   - Increment
@@ -14,7 +13,6 @@
   - Bitwise
   - Assignment
   - Special
-    
 - Operand
   - Unary
   - Binary
