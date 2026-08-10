@@ -21,6 +21,6 @@
 
 - if Statement
 - if-else Statement
-- if-elif-else Statemen
+- if-elif-else Statement
 - Nested if Statement
 - Match-case 
