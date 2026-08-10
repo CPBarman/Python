@@ -17,6 +17,7 @@
   - Ternary
  
 
+
 ## Conditional Statements
 
 - if Statement
@@ -26,7 +27,13 @@
 - Match-case 
 
 
+
 ## Loop
 
 - for Loop
 - while Loop
+
+
+
+## Python Matplotlib
+
