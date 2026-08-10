@@ -24,3 +24,9 @@
 - if-elif-else Statement
 - Nested if Statement
 - Match-case 
+
+
+## Loop
+
+- for Loop
+- while Loop
