@@ -4,4 +4,8 @@
 
 - Variable
 - Operator
+  - Arithmetic
+  - Increment
+  - Relation
+  - Logical
 - Operand
