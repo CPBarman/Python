@@ -2,6 +2,6 @@
 
 ## Basic Python
 
--Variable
--Operator
--Operand
+--Variable
+--Operator
+--Operand
