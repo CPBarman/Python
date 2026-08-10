@@ -8,4 +8,10 @@
   - Increment
   - Relation
   - Logical
+  - Bitwise
+  - Assignment
+  - Special
 - Operand
+  - Unary
+  - Binary
+  - Ternary
