@@ -85,6 +85,14 @@
   - Matrix Multiplication
   - Dot Product
   - Cross Product
+- Random Numbers
+  - Random Number Generation
+  - Uniform Distribution
+  - Normal Distribution
+  - Random Integers
+  - Random Sampling
+  - Random Seed
+  - Modern Random Generator
 
 
 
