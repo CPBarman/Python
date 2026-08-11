@@ -47,6 +47,28 @@
 - Operator
   - Array Operations
   - Logical Operations
+  - Universal Functions — ufunc
+  - Broadcasting
+ 
+ - Multidimensional Arrays
+  - 2D Arrays
+  - 3D Arrays
+    
+- Mathematical Functions
+  - Basic Mathematical Functions
+  - Exponential & Logarithmic
+  - Trigonometric Functions
+  - Inverse Trigonometric
+  - Hyperbolic Functions
+  - Angle Conversion
+ 
+- Linear Algebra
+  - Vectors
+  - Matrices
+  - Matrix Addition
+  - Matrix Multiplication
+  - Dot Product
+  - Cross Product
 
 
 
