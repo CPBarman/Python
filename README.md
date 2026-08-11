@@ -44,6 +44,9 @@
 ## NumPy
 
 - Array
+- Operator
+ - Array Operations
+ - Logical Operations
 
 
 
