@@ -49,7 +49,7 @@
   - Logical Operations
   - Universal Functions — ufunc
   - Broadcasting
- - Multidimensional Arrays
+- Multidimensional Arrays
   - 2D Arrays
   - 3D Arrays
 - Mathematical Functions
