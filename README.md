@@ -43,11 +43,15 @@
 
 ## NumPy
 
-- Array
+- NumPy Array
+  - Array Attributes
+  - Array Creation Functions
+  - Numerical Sequences
 - Indexing & Slicing
   - Basic Indexing
   - Array Slicing
   - Boolean Indexing
+  - Fancy Indexing
 - Operator
   - Array Operations
   - Logical Operations
@@ -59,6 +63,14 @@
   - 3D Arrays
     - 3D Arrays Indexing
     - Multidimensional Indexing
+- Array Manipulation
+  - Joining Arrays
+  - Vertical & Horizontal Joining
+  - Splitting Arrays
+  - Repeating & Tiling
+  - Sorting
+  - Searching
+  - Unique Values  
 - Mathematical Functions
   - Basic Mathematical Functions
   - Exponential & Logarithmic
