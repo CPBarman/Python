@@ -37,11 +37,11 @@
 
 
 
-## Matplotlib
-
-
-
 ## NumPy
+
+
+
+## Matplotlib
 
 
 
