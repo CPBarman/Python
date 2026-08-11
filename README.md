@@ -45,8 +45,8 @@
 
 - Array
 - Operator
- - Array Operations
- - Logical Operations
+  - Array Operations
+  - Logical Operations
 
 
 
