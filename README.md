@@ -49,11 +49,9 @@
   - Logical Operations
   - Universal Functions — ufunc
   - Broadcasting
- 
  - Multidimensional Arrays
   - 2D Arrays
   - 3D Arrays
-    
 - Mathematical Functions
   - Basic Mathematical Functions
   - Exponential & Logarithmic
@@ -61,7 +59,6 @@
   - Inverse Trigonometric
   - Hyperbolic Functions
   - Angle Conversion
- 
 - Linear Algebra
   - Vectors
   - Matrices
