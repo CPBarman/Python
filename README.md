@@ -44,6 +44,10 @@
 ## NumPy
 
 - Array
+- Indexing & Slicing
+  - Basic Indexing
+  - Array Slicing
+  - Boolean Indexing
 - Operator
   - Array Operations
   - Logical Operations
@@ -51,7 +55,10 @@
   - Broadcasting
 - Multidimensional Arrays
   - 2D Arrays
+    - 2D Array Indexing
   - 3D Arrays
+    - 3D Arrays Indexing
+    - Multidimensional Indexing
 - Mathematical Functions
   - Basic Mathematical Functions
   - Exponential & Logarithmic
