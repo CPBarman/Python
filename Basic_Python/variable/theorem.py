@@ -29,3 +29,9 @@ nam = "Jibon"
 print(nam)
 
 
+sl = 1
+name = "Roy"
+age = 23
+print(sl)
+print(name)
+print(age)
