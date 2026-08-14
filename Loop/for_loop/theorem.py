@@ -57,7 +57,7 @@ for i in range(2,6,3):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-3: for loop with enumerate()
+# Structure-4: for loop with enumerate()
 # for index, value in enumerate(iterable):
 #     <statement>
 #------------------------------------------------------------------------------------------------#
@@ -97,7 +97,7 @@ for index, value in enumerate(fruits, start=1):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-: General Nested for Loop
+# Structure-6: General Nested for Loop
 # for <variable1> in <iterable1>:
 #     for <variable2> in <iterable2>:
 #         <statement>
@@ -110,7 +110,7 @@ for i in range(3):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-: Nested for Loop
+# Structure-7: Nested for Loop
 # list1 = [value1, value2, value3, ...]
 # list2 = [value1, value2, value3, ...]
 # for <variable1> in <list1>:
