@@ -19,7 +19,7 @@ for i in range(10):
 
 #------------------------------------------------------------------------------------------------#
 # Structure-2: for loop with range(start, stop)
-# for variable in range range(start, stop):
+# for variable in range(start, stop):
 #    <statement>
 #------------------------------------------------------------------------------------------------#
 
