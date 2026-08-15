@@ -1,18 +1,18 @@
 #------------------------------------------------------------------------------------------------#
-# Structure-1: for Loop with if Condition
+# Structure-1: break Statement in for Loop
 # for <variable> in <iterable>:
 #     if <condition>:
-#         <statement>
-#     else:
-#         <statement>
+#         break
+#     <statement>
 #------------------------------------------------------------------------------------------------#
 
-# Example-1: Checking Even and Odd Numbers
-for i in range(1, 6):
-    if i % 2 == 0:
-        print(i, "is Even")
-    else:
-        print(i, "is Odd")
+# Example-1: Stop the Loop at a Specific Value
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)
+
+
 
 
 #------------------------------------------------------------------------------------------------#
@@ -20,16 +20,13 @@ for i in range(1, 6):
 # number = int(input("<prompt>"))
 # for <variable> in range(number):
 #     if <condition>:
-#         <statement>
-#     else:
-#         <statement>
+#         break
+#     <statement>
 #------------------------------------------------------------------------------------------------#
 
-#Example-1
+# Example-1: Using break with input()
 number = int(input("Enter a number: "))
-for i in range(1, number + 1):
-    if i % 2 == 0:
-        print(i, "is Even")
-    else:
-        print(i, "is Odd")
-        
+for i in range(1, 11):
+    if i == number:
+        break
+    print(i)
