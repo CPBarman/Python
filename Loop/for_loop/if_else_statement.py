@@ -26,7 +26,6 @@ for i in range(1, 6):
 #------------------------------------------------------------------------------------------------#
 
 #Example-1
-
 number = int(input("Enter a number: "))
 for i in range(1, number + 1):
     if i % 2 == 0:

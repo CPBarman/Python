@@ -9,7 +9,7 @@
 #         <statement>
 #------------------------------------------------------------------------------------------------#
 
-#Example
+#Example-1
 marks = [95, 75, 55, 35]
 for mark in marks:
     if mark >= 80:
@@ -23,7 +23,7 @@ for mark in marks:
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-6: for Loop with if-elif-else Statement
+# Structure-2: for Loop with if-elif-else Statement
 # for <variable> in <iterable>:
 #     if <condition-1>:
 #         <statement>
@@ -34,7 +34,6 @@ for mark in marks:
 #------------------------------------------------------------------------------------------------#
 
 # Example-1: Checking Grade Using User Input
-
 number_of_students = int(input("Enter number of students: "))
 for i in range(number_of_students):
     marks = int(input("Enter marks: "))

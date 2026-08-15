@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------------------------#
-# Structure-6: for Loop with if Condition
+# Structure-1: for Loop with if Condition
 # for <variable> in <iterable>:
 #     if <condition>:
 #         <statement>

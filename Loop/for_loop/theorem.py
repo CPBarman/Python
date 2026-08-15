@@ -2,10 +2,8 @@
 # Structure-1: for loop with range(stop)
 # for <variable> in <iterable>:
 #    <statement>
-
-# variable: The loop variable that takes each value from the iterable.
-# iterable: A sequence (list, tuple, string, range, etc.) or any object that can return its elements one at a time
-#------------------------------------------------------------------------------------------------#
+# *variable: The loop variable that takes each value from the iterable.#
+# *iterable: A sequence (list, tuple, string, range, etc.) or any object that can return its elements one at a time#
 #------------------------------------------------------------------------------------------------#
 
 #Example-1
