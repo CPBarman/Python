@@ -42,7 +42,20 @@ for i in range(2,6):
 
 
 #------------------------------------------------------------------------------------------------#
-#  Structure-3: for loop with range(start, stop, step)
+# Structure-3: for Loop with User Input
+# <variable> = input("<prompt>")
+# for <loop_variable> in <iterable>:
+#     <statement>
+#------------------------------------------------------------------------------------------------#
+
+#Example-1
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(number * i)
+
+
+#------------------------------------------------------------------------------------------------#
+#  Structure-4: for loop with range(start, stop, step)
 # for variable in range range(start, stop):
 #    <statement>
 #------------------------------------------------------------------------------------------------#
@@ -57,7 +70,7 @@ for i in range(2,6,3):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-4: for loop with enumerate()
+# Structure-5: for loop with enumerate()
 # for index, value in enumerate(iterable):
 #     <statement>
 #------------------------------------------------------------------------------------------------#
@@ -68,7 +81,7 @@ for index, value in enumerate(["a", "b", "c"]):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-5: Iterating Over a List Using for Loop
+# Structure-6: Iterating Over a List Using for Loop
 # list_name = [value1, value2, value3, ...]
 # for <variable> in <list_name>:
 #     <statement>
@@ -97,7 +110,7 @@ for index, value in enumerate(fruits, start=1):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-6: General Nested for Loop
+# Structure-7: General Nested for Loop
 # for <variable1> in <iterable1>:
 #     for <variable2> in <iterable2>:
 #         <statement>
@@ -110,7 +123,7 @@ for i in range(3):
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-7: Nested for Loop
+# Structure-8: Nested for Loop
 # list1 = [value1, value2, value3, ...]
 # list2 = [value1, value2, value3, ...]
 # for <variable1> in <list1>:

@@ -20,3 +20,29 @@ for mark in marks:
         print(mark, "Grade C")
     else:
         print(mark, "Fail")
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-6: for Loop with if-elif-else Statement
+# for <variable> in <iterable>:
+#     if <condition-1>:
+#         <statement>
+#     elif <condition-2>:
+#         <statement>
+#     else:
+#         <statement>
+#------------------------------------------------------------------------------------------------#
+
+# Example-1: Checking Grade Using User Input
+
+number_of_students = int(input("Enter number of students: "))
+for i in range(number_of_students):
+    marks = int(input("Enter marks: "))
+    if marks >= 80:
+        print("Grade A")
+    elif marks >= 60:
+        print("Grade B")
+    elif marks >= 40:
+        print("Grade C")
+    else:
+        print("Fail")
