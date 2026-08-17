@@ -39,7 +39,7 @@ print(numbers)
 # Structure-2: Finding the Number of Dimensions
 # <array_name>.ndim
 # ndim  = Number of Dimensions
-# shape = Size of Each Dimension
+# shape = Size of Each Dimension (Number of Rows & Columns)
 # size  = Total Number of Elements
 #------------------------------------------------------------------------------------------------#
 

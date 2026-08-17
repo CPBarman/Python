@@ -21,21 +21,12 @@ arr = np.array([1, 2, 3, 4, 5])
 print(arr)
 print(type(arr))              #[1 2 3 4 5]  #<class 'numpy.ndarray'>
 
-#Example-4
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-print(arr[0])                  # 1
-
-#Example-5
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-print(arr[2] + arr[3])           # 7
 
 #------------------------------------------------------------------------------------------------#
 # Structure-2: Finding the Number of Dimensions of an Array
 # <array_name>.ndim
 # ndim  = Number of Dimensions
-# shape = Size of Each Dimension
+# shape = Size of Each Dimension (Number of Rows & Columns)
 # size  = Total Number of Elements
 #------------------------------------------------------------------------------------------------#
 
@@ -50,3 +41,97 @@ print(numbers.size)
 # 1
 # (5,)
 # 5
+
+#------------------------------------------------------------------------------------------------#
+# Structure-3: Finding the Data Type of an Array
+# <array_name>.dtype
+#------------------------------------------------------------------------------------------------#
+
+# Example-1: Integer Array
+import numpy as np
+numbers = np.array([10, 20, 30, 40, 50])
+print(numbers.dtype)
+
+# Output:
+# int64
+
+
+# Example-2: Finding the Data Type of a Float Array
+numbers = np.array([10.5, 20.5, 30.5])
+print(numbers.dtype)
+# Output:
+# float64
+
+
+# Example-3: Finding the Data Type of a Boolean Array
+values = np.array([True, False, True])
+print(values.dtype)
+# Output:
+# bool
+
+#------------------------------------------------------------------------------------------------#
+# Structure-4: Creating an Array with a Specific Data Type
+# <array_name> = np.array([value1, value2, ...], dtype=<data_type>)
+#------------------------------------------------------------------------------------------------#
+
+# Example
+import numpy as np
+numbers = np.array([10, 20, 30, 40], dtype=np.float32)
+print(numbers)
+print(numbers.dtype)
+
+# Output:
+# [10. 20. 30. 40.]
+# float32
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-11: Accessing an Element of a 1D Array Using Index
+# <array_name>[<index>]
+#------------------------------------------------------------------------------------------------#
+
+# Example-1
+import numpy as np
+numbers = np.array([10, 20, 30, 40, 50])
+print(numbers[0])
+print(numbers[2])
+print(numbers[4])
+
+# Output:
+# 10
+# 30
+# 50
+
+#Example-2
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr[0])                  
+
+# Output:
+# 1
+
+#Example-3
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr[2] + arr[3])          
+
+# Output:
+ # 7
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-14: Accessing an Element Using Negative Index
+# <array_name>[-<row_index>, -<column_index>]
+#------------------------------------------------------------------------------------------------#
+
+# Example
+numbers = np.array([
+    [10, 20, 30],
+    [40, 50, 60]
+])
+print(numbers[-1, -1])
+print(numbers[-2, -2])
+
+# Output:
+# 60
+# 20

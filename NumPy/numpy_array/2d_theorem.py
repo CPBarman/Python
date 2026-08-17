@@ -39,7 +39,7 @@ print(numbers[1, 2])
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-4: Accessing a Column from a 2D Array
+# Structure-3: Accessing a Column from a 2D Array
 # <array_name>[:, <column_index>]
 #------------------------------------------------------------------------------------------------#
 
@@ -56,10 +56,10 @@ print(numbers[:, 1])
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-7: Finding the Number of Dimensions Using ndim
+# Structure-4: Finding the Number of Dimensions Using ndim
 # <array_name>.ndim
 # ndim  = Number of Dimensions
-# shape = Size of Each Dimension
+# shape = Size of Each Dimension (Number of Rows & Columns)
 # size  = Total Number of Elements
 #------------------------------------------------------------------------------------------------#
 
