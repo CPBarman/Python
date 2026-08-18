@@ -62,3 +62,103 @@ for row in numbers:
 # 40
 # 50
 # 60
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-4: Iterating Over a 3D NumPy Array
+# for <layer> in <array_name>:
+#     <statement>
+#------------------------------------------------------------------------------------------------#
+
+# Example
+import numpy as np
+numbers = np.array([
+    [
+        [10, 20, 30],
+        [40, 50, 60]
+    ],
+    [
+        [70, 80, 90],
+        [100, 110, 120]
+    ]
+])
+for layer in numbers:
+    print(layer)
+
+# Output:
+# [[ 10  20  30]
+#  [ 40  50  60]]
+#
+# [[ 70  80  90]
+#  [100 110 120]]
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-5: Iterating Over Rows in a 3D NumPy Array
+# for <layer> in <array_name>:
+#     for <row> in <layer>:
+#         <statement>
+#------------------------------------------------------------------------------------------------#
+
+# Example
+import numpy as np
+numbers = np.array([
+    [
+        [10, 20, 30],
+        [40, 50, 60]
+    ],
+    [
+        [70, 80, 90],
+        [100, 110, 120]
+    ]
+])
+for layer in numbers:
+    for row in layer:
+        print(row)
+
+# Output:
+# [10 20 30]
+# [40 50 60]
+# [70 80 90]
+# [100 110 120]
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-6: Iterating Over Each Element of a 3D NumPy Array
+# for <layer> in <array_name>:
+#     for <row> in <layer>:
+#         for <element> in <row>:
+#             <statement>
+#------------------------------------------------------------------------------------------------#
+
+# Example
+import numpy as np
+numbers = np.array([
+    [
+        [10, 20, 30],
+        [40, 50, 60]
+    ],
+    [
+        [70, 80, 90],
+        [100, 110, 120]
+    ]
+])
+for layer in numbers:
+    for row in layer:
+        for number in row:
+            print(number)
+
+# Output:
+# 10
+# 20
+# 30
+# 40
+# 50
+# 60
+# 70
+# 80
+# 90
+# 100
+# 110
+# 120
+
