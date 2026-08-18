@@ -71,3 +71,21 @@ print(new_numbers)
 # Output:
 # [100  20  30  40]
 # [100  20  30  40]
+
+
+
+
+
+
+
+#------------------------------------------------------------------------------------------------#
+# Structure-10: Comparing flatten() and ravel()
+#------------------------------------------------------------------------------------------------#
+
+# flatten()
+# <new_array> = <array_name>.flatten()
+# → Returns a copy of the array.
+
+# ravel()
+# <new_array> = <array_name>.ravel()
+# → Returns a flattened array and may return a view when possible.
