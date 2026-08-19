@@ -83,6 +83,7 @@
   - Inverse Trigonometric
   - Hyperbolic Functions
   - Angle Conversion
+- NumPy Flattening & Raveling 
 - Operator
   - Array Operations
   - Logical Operations
