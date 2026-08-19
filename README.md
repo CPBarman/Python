@@ -75,6 +75,10 @@
   - Array Slicing
   - Boolean Indexing
   - Fancy Indexing
+- NumPy Flattening & Raveling
+  - flatten()
+  - ravel()
+  - Difference between flatten() and ravel()
 - Mathematical Functions
   - Basic Mathematical Functions
   - Exponential & Logarithmic
@@ -83,10 +87,7 @@
   - Inverse Trigonometric
   - Hyperbolic Functions
   - Angle Conversion
-- NumPy Flattening & Raveling
-  - flatten()
-  - ravel()
-  - Difference between flatten() and ravel()
+
 - Array Joining & Splitting
   - Joining Arrays
   - Splitting Arrays
