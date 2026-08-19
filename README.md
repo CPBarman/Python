@@ -79,7 +79,7 @@
   - flatten()
   - ravel()
   - Difference between flatten() and ravel()
--  Array Iteration
+- Array Iteration
   - array_iteration
   - Iterating over 1D Array
   - Iterating over 2D Array
