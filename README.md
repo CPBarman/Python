@@ -83,7 +83,10 @@
   - Inverse Trigonometric
   - Hyperbolic Functions
   - Angle Conversion
-- NumPy Flattening & Raveling 
+- NumPy Flattening & Raveling
+  - flatten()
+  - ravel()
+  - Difference between flatten() and ravel()
 - Operator
   - Array Operations
   - Logical Operations
