@@ -1,5 +1,13 @@
+#================================================================================================#
+#                                 Basic Mathematical Functions
+# np.sqrt()
+# np.square()
+# np.power()
+# np.abs()
+#================================================================================================#
 # NumPy provides various mathematical functions to perform
 # mathematical operations efficiently on NumPy arrays.
+
 
 #------------------------------------------------------------------------------------------------#
 # Structure-1: Square Root

@@ -1,5 +1,14 @@
+#================================================================================================#
+#                                     Exponential & Logarithmic Functions
+# np.exp()
+# np.log()
+# np.log2()
+# np.log10()
+# np.expm1()
+#================================================================================================#
 # NumPy provides several functions for calculating exponential
 # and logarithmic values efficiently on NumPy arrays.
+
 
 
 #------------------------------------------------------------------------------------------------#
