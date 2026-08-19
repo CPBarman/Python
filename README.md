@@ -67,9 +67,9 @@
   - 3D NumPy Array
   - Multidimensional NumPy Array
 - NumPy Reshaping
- - 1D Reshaping
- - 2D Reshaping
- - 3D Reshaping
+  - 1D Reshaping
+  - 2D Reshaping
+  - 3D Reshaping
 - Indexing & Slicing
   - Basic Indexing
   - Array Slicing
