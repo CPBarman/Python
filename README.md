@@ -87,6 +87,9 @@
   - flatten()
   - ravel()
   - Difference between flatten() and ravel()
+- Array Joining & Splitting
+  - Joining Arrays
+  - Splitting Arrays
 - Operator
   - Array Operations
   - Logical Operations
@@ -115,7 +118,6 @@
   - Random Sampling
   - Random Seed
   - Modern Random Generator
-
 
 
 ## Matplotlib
