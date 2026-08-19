@@ -66,26 +66,28 @@
   - 2D NumPy Array
   - 3D NumPy Array
   - Multidimensional NumPy Array
-
- - Indexing & Slicing
+- NumPy Reshaping
+ - 1D Reshaping
+ - 2D Reshaping
+ - 3D Reshaping
+- Indexing & Slicing
   - Basic Indexing
   - Array Slicing
   - Boolean Indexing
   - Fancy Indexing
-
-- NumPy Reshaping
-    
-    
-  - Array Attributes
-  - Array Creation Functions
-  - Numerical Sequences
-
+- Mathematical Functions
+  - Basic Mathematical Functions
+  - Exponential & Logarithmic
+  - Trigonometric Functions
+  - Statistical Functions 
+  - Inverse Trigonometric
+  - Hyperbolic Functions
+  - Angle Conversion
 - Operator
   - Array Operations
   - Logical Operations
   - Universal Functions — ufunc
   - Broadcasting
-
 - Array Manipulation
   - Joining Arrays
   - Vertical & Horizontal Joining
@@ -94,13 +96,6 @@
   - Sorting
   - Searching
   - Unique Values  
-- Mathematical Functions
-  - Basic Mathematical Functions
-  - Exponential & Logarithmic
-  - Trigonometric Functions
-  - Inverse Trigonometric
-  - Hyperbolic Functions
-  - Angle Conversion
 - Linear Algebra
   - Vectors
   - Matrices
