@@ -71,10 +71,10 @@
   - 2D Reshaping
   - 3D Reshaping
 - Indexing & Slicing
-  - Basic Indexing
-  - Array Slicing
-  - Boolean Indexing
-  - Fancy Indexing
+   - Basic Indexing
+   - Array Slicing
+   - Boolean Indexing
+   - Fancy Indexing
 - NumPy Flattening & Raveling
   - flatten()
   - ravel()
