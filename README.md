@@ -42,6 +42,12 @@
 
 
 ## Arrays
+  - 1D Array
+  - 2D Array
+  - 3D Array
+  - Multidimensional Array
+
+
 
 
 
@@ -56,25 +62,30 @@
 ## NumPy
 
 - NumPy Array
-  - Array Attributes
-  - Array Creation Functions
-  - Numerical Sequences
-- Indexing & Slicing
+  - 1D NumPy Array
+  - 2D NumPy Array
+  - 3D NumPy Array
+  - Multidimensional NumPy Array
+
+ - Indexing & Slicing
   - Basic Indexing
   - Array Slicing
   - Boolean Indexing
   - Fancy Indexing
+
+- NumPy Reshaping
+    
+    
+  - Array Attributes
+  - Array Creation Functions
+  - Numerical Sequences
+
 - Operator
   - Array Operations
   - Logical Operations
   - Universal Functions — ufunc
   - Broadcasting
-- Multidimensional Arrays
-  - 2D Arrays
-    - 2D Array Indexing
-  - 3D Arrays
-    - 3D Arrays Indexing
-    - Multidimensional Indexing
+
 - Array Manipulation
   - Joining Arrays
   - Vertical & Horizontal Joining
