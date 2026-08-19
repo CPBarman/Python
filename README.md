@@ -87,7 +87,6 @@
   - Inverse Trigonometric
   - Hyperbolic Functions
   - Angle Conversion
-
 - Array Joining & Splitting
   - Joining Arrays
   - Splitting Arrays
