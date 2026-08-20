@@ -1,3 +1,14 @@
+#================================================================================================#
+#                                  NumPy Array Attributes
+
+# np.ndim   → Returns the number of dimensions of an array
+# np.size   → Returns the total number of elements in an array
+# np.shape  → Returns the dimensions of an array
+# np.dtype  → Returns the data type of array elements
+#================================================================================================#
+
+
+
 #------------------------------------------------------------------------------------------------#
 # Structure-1: Creating a NumPy Array
 # import numpy as <alias>
@@ -7,19 +18,10 @@
 # Example-1
 import numpy as np
 numbers = np.array([10, 20, 30, 40, 50])
-print(numbers)               #[10 20 30 40 50]
+print(numbers) 
 
-
-# Example-2: Checking the Type of a NumPy Array
-import numpy as np
-numbers = np.array([10, 20, 30, 40, 50])
-print(type(numbers))          #<class 'numpy.ndarray'>
-
-#Example-3
-import numpy as np
-arr = np.array([1, 2, 3, 4, 5])
-print(arr)
-print(type(arr))              #[1 2 3 4 5]  #<class 'numpy.ndarray'>
+# Output:
+# [10 20 30 40 50]
 
 
 #------------------------------------------------------------------------------------------------#
@@ -59,13 +61,32 @@ print(numbers.dtype)
 # Example-2: Finding the Data Type of a Float Array
 numbers = np.array([10.5, 20.5, 30.5])
 print(numbers.dtype)
+
 # Output:
 # float64
 
+# Example-3: Checking the Type of a NumPy Array
+import numpy as np
+numbers = np.array([10, 20, 30, 40, 50])
+print(type(numbers))          
 
-# Example-3: Finding the Data Type of a Boolean Array
+# Output:
+#<class 'numpy.ndarray'>
+
+#Example-4
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))              
+
+# Output:
+#[1 2 3 4 5]  #<class 'numpy.ndarray'>
+
+
+# Example-5: Finding the Data Type of a Boolean Array
 values = np.array([True, False, True])
 print(values.dtype)
+
 # Output:
 # bool
 
@@ -83,39 +104,3 @@ print(numbers.dtype)
 # Output:
 # [10. 20. 30. 40.]
 # float32
-
-
-#------------------------------------------------------------------------------------------------#
-# Structure-11: Accessing an Element of a 1D Array Using Index
-# <array_name>[<index>]
-#------------------------------------------------------------------------------------------------#
-
-# Example-1
-import numpy as np
-numbers = np.array([10, 20, 30, 40, 50])
-print(numbers[0])
-print(numbers[2])
-print(numbers[4])
-
-# Output:
-# 10
-# 30
-# 50
-
-#Example-2
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-print(arr[0])                  
-
-# Output:
-# 1
-
-#Example-3
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-print(arr[2] + arr[3])          
-
-# Output:
- # 7
-
-
