@@ -1,14 +1,16 @@
 #================================================================================================#
 #                           Trigonometric Functions
-# np.sin()
-# np.cos()
-# np.tan()
-# np.arcsin()
-# np.arccos()
-# np.arctan()
-# np.sinh()
-# np.cosh()
-# np.tanh()
+# 1. np.sin()       → Sine
+# 2. np.cos()       → Cosine
+# 3. np.tan()       → Tangent
+
+# 4. np.arcsin()    → Inverse Sine
+# 5. np.arccos()    → Inverse Cosine
+# 6. np.arctan()    → Inverse Tangent
+
+# 7. np.sinh()      → Hyperbolic Sine
+# 8. np.cosh()      → Hyperbolic Cosine
+# 9. np.tanh()      → Hyperbolic Tangent
 
 #================================================================================================#
 #
@@ -224,16 +226,3 @@ print(result)
 
 
 
-#------------------------------------------------------------------------------------------------#
-# 1. np.sin()       → Sine
-# 2. np.cos()       → Cosine
-# 3. np.tan()       → Tangent
-
-# 4. np.arcsin()    → Inverse Sine
-# 5. np.arccos()    → Inverse Cosine
-# 6. np.arctan()    → Inverse Tangent
-
-# 7. np.sinh()      → Hyperbolic Sine
-# 8. np.cosh()      → Hyperbolic Cosine
-# 9. np.tanh()      → Hyperbolic Tangent
-#------------------------------------------------------------------------------------------------#
