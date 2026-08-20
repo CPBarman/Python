@@ -49,6 +49,12 @@
 ## String
 
 
+## Slicing
+  - Array Slicing
+  - String Slicing
+
+
+
 
 ## File Handling
 
