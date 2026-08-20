@@ -3,7 +3,6 @@
 
 
 ## Basic Python
-
 - Variable
 - Operator
   - Arithmetic
@@ -21,7 +20,6 @@
 
 
 ## Conditional Statements
-
 - if Statement
 - if-else Statement
 - if-elif-else Statement
@@ -31,7 +29,6 @@
 
 
 ## Loop
-
 - for Loop
 - while Loop
 
@@ -49,8 +46,6 @@
 
 
 
-
-
 ## String
 
 
@@ -60,7 +55,6 @@
 
 
 ## NumPy
-
 - NumPy Array
   - 1D NumPy Array
   - 2D NumPy Array
