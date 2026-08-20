@@ -1,5 +1,35 @@
+#================================================================================================#
+#                                       2D Reshaping
+
+
+# Total Elements = Product of all Dimensions
+
+# For 1D:
+# size = n
+
+# For 2D:
+# size = rows × columns
+
+# For 3D:
+# size = layers × rows × columns
+
+
+#Example
+# Total number of elements must remain the same.
+
+# Example:
+# 6 elements → reshape(2, 3)     → 2 × 3 = 6   
+# 6 elements → reshape(3, 2)     → 3 × 2 = 6   
+# 6 elements → reshape(1, 6)     → 1 × 6 = 6   
+# 6 elements → reshape(2, 3, 1) → 2 × 3 × 1 = 6 
+# 6 elements → reshape(2, 2)     → 2 × 2 = 4   
 # Reshaping is used to change the shape of an array without changing
 # the total number of elements in the array.
+#================================================================================================#
+
+
+
+
 #------------------------------------------------------------------------------------------------#
 # Structure-1: Reshaping a 2D Array into Another 2D Array
 # <new_array> = <array_name>.reshape(<new_rows>, <new_columns>)
@@ -73,28 +103,3 @@ print(new_numbers.shape)
 
 
 
-#------------------------------------------------------------------------------------------------#
-# Rule for reshape()
-#------------------------------------------------------------------------------------------------#
-
-# Total Elements = Product of all Dimensions
-
-# For 1D:
-# size = n
-
-# For 2D:
-# size = rows × columns
-
-# For 3D:
-# size = layers × rows × columns
-
-
-#Example
-# Total number of elements must remain the same.
-
-# Example:
-# 6 elements → reshape(2, 3)     → 2 × 3 = 6   
-# 6 elements → reshape(3, 2)     → 3 × 2 = 6   
-# 6 elements → reshape(1, 6)     → 1 × 6 = 6   
-# 6 elements → reshape(2, 3, 1) → 2 × 3 × 1 = 6 
-# 6 elements → reshape(2, 2)     → 2 × 2 = 4   
