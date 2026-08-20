@@ -63,8 +63,11 @@
 ## NumPy
 - NumPy Array
   - 1D NumPy Array
+  - 1D Indexing
   - 2D NumPy Array
+  - 2D Indexing
   - 3D NumPy Array
+  - 3D Indexing
   - Multidimensional NumPy Array
 - NumPy Reshaping
   - 1D Reshaping
