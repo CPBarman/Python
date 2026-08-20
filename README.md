@@ -42,6 +42,12 @@
 
 
 ## Arrays
+  - 1D Array
+  - 2D Array
+  - 3D Array
+  - Multidimensional Array
+
+
 
 
 
@@ -56,25 +62,46 @@
 ## NumPy
 
 - NumPy Array
-  - Array Attributes
-  - Array Creation Functions
-  - Numerical Sequences
+  - 1D NumPy Array
+  - 2D NumPy Array
+  - 3D NumPy Array
+  - Multidimensional NumPy Array
+- NumPy Reshaping
+  - 1D Reshaping
+  - 2D Reshaping
+  - 3D Reshaping
 - Indexing & Slicing
-  - Basic Indexing
-  - Array Slicing
-  - Boolean Indexing
-  - Fancy Indexing
+   - Basic Indexing
+   - Array Slicing
+   - Boolean Indexing
+   - Fancy Indexing
+- NumPy Flattening & Raveling
+  - flatten()
+  - ravel()
+  - Difference between flatten() and ravel()
+- Array Iteration
+  - Iterating over 1D Array
+  - Iterating over 2D Array
+  - Iterating over 3D Array
+  - Nested Loop Iteration
+  - np.nditer()
+  - np.ndenumerate()
+- Mathematical Functions
+  - Basic Mathematical Functions
+  - Exponential & Logarithmic
+  - Trigonometric Functions
+  - Statistical Functions 
+  - Inverse Trigonometric
+  - Hyperbolic Functions
+  - Angle Conversion
+- Array Joining & Splitting
+  - Joining Arrays
+  - Splitting Arrays
 - Operator
   - Array Operations
   - Logical Operations
   - Universal Functions — ufunc
   - Broadcasting
-- Multidimensional Arrays
-  - 2D Arrays
-    - 2D Array Indexing
-  - 3D Arrays
-    - 3D Arrays Indexing
-    - Multidimensional Indexing
 - Array Manipulation
   - Joining Arrays
   - Vertical & Horizontal Joining
@@ -83,13 +110,6 @@
   - Sorting
   - Searching
   - Unique Values  
-- Mathematical Functions
-  - Basic Mathematical Functions
-  - Exponential & Logarithmic
-  - Trigonometric Functions
-  - Inverse Trigonometric
-  - Hyperbolic Functions
-  - Angle Conversion
 - Linear Algebra
   - Vectors
   - Matrices
@@ -105,7 +125,6 @@
   - Random Sampling
   - Random Seed
   - Modern Random Generator
-
 
 
 ## Matplotlib
