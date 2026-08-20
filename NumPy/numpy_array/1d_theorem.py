@@ -1,5 +1,5 @@
 #================================================================================================#
-#                                  NumPy Array Attributes
+#                                    NumPy Array 
 
 # np.ndim   → Returns the number of dimensions of an array
 # np.size   → Returns the total number of elements in an array
