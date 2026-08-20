@@ -49,10 +49,10 @@
 ## String
 
 
+
 ## Slicing
   - Array Slicing
   - String Slicing
-
 
 
 
@@ -70,6 +70,7 @@
   - 3D Indexing
   - Multidimensional NumPy Array
 - NumPy Reshaping
+  - Theorem
   - 1D Reshaping
   - 2D Reshaping
   - 3D Reshaping
@@ -128,6 +129,7 @@
   - Random Sampling
   - Random Seed
   - Modern Random Generator
+
 
 
 ## Matplotlib
