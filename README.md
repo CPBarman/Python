@@ -132,6 +132,64 @@
 
 
 ## Matplotlib
+- Basic Plotting
+  - Basic Line Plot
+  - Labels and Title
+  - Grid and Legend
+- Line Plot Customization
+  - Line Styles
+  - Markers
+  - Colors
+  - Line Customization
+- Multiple Plots
+  - Multiple Lines
+  - Subplots
+- Basic Plot Types 
+  - Bar Chart
+  - Histogram
+  - Scatter Plot
+  - Pie Chart
+- Figure and Axes
+  - Figure
+  - Axes
+  - Object-Oriented Interface  
+- Axis Customization
+  - Axis Limits
+  - Ticks
+  - Tick Labels
+- Text and Annotation
+  - Text
+  - Annotation
+- Advanced Plot Types
+  - Area Plot
+  - Stack Plot
+  - Box Plot
+  - Error Bar
+  - Stem Plot
+  - Step Plot
+- Mathematical & Scientific Visualization
+  - Plotting Mathematical Functions
+  - Linear Function
+  - Quadratic Function
+  - Polynomial Function
+  - Exponential Function
+  - Logarithmic Function
+  - Trigonometric Function Plotting
+  - Multiple Mathematical Functions
+  - Scientific Data Visualization
+- Colormaps
+  - Colormaps
+  - Colorbar
+- 2D Data Visualization
+  - Image Display
+  - Contour Plot
+- Saving Figures
+  - Saving Figures
+  - Figure Resolution
+
+
+
+
 
 
 
