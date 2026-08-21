@@ -75,10 +75,9 @@
   - 2D Reshaping
   - 3D Reshaping
 - Indexing & Slicing
-   - Basic Indexing
-   - Array Slicing
-   - Boolean Indexing
-   - Fancy Indexing
+   - 1D Slicing
+   - 2D Slicing
+   - 3D Slicing
 - NumPy Flattening & Raveling
   - flatten()
   - ravel()
