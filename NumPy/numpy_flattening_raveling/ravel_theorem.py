@@ -1,3 +1,27 @@
+#================================================================================================#
+#                                        # ravel()
+
+
+# array.ravel()   → Converts a multidimensional array into a 1D array
+#
+# Statement:
+# The ravel() function converts a multidimensional NumPy array
+# into a one-dimensional array.
+#
+# Structure:
+# array.ravel()
+#
+# Important:
+# ravel() normally returns a view of the original array whenever possible.
+# Therefore, changes made to the raveled array may affect the original array.
+#
+# 2D Array → 1D Array
+# 3D Array → 1D Array
+#================================================================================================#
+
+
+
+
 #------------------------------------------------------------------------------------------------#
 # Structure-1: Using ravel() on a 2D NumPy Array
 # <new_array> = <array_name>.ravel()
@@ -71,29 +95,4 @@ print(new_numbers)
 # Output:
 # [100  20  30  40]
 # [100  20  30  40]
-
-
-
-
-
-
-
-#------------------------------------------------------------------------------------------------#
-# Comparing flatten() and ravel()
-#------------------------------------------------------------------------------------------------#
-
-# flatten()
-# <new_array> = <array_name>.flatten()
-# → Returns a copy of the array.
-# Converts a multi-dimensional array into a 1D array.
-# Returns a copy.
-# Changes in the new array do not affect the original array.
-
-
-# ravel()
-# <new_array> = <array_name>.ravel()
-# → Returns a flattened array and may return a view when possible.
-# Converts a multi-dimensional array into a 1D array.
-# Returns a view when possible.
-# Changes in the new array may affect the original array.
 
