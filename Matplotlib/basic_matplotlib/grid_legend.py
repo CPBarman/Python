@@ -1,59 +1,62 @@
 #================================================================================================#
-#                                     Line Customization
-
-#
-# 1. linestyle    → Changes the style of the line
-# 2. marker       → Adds markers to data points
-# 3. color        → Changes the color of the line
-# 4. linewidth    → Changes the thickness of the line
-# 5. markersize   → Changes the size of markers
-#================================================================================================#
-
-
-
-
-#================================================================================================#
-# Structure-1: Line Width
+#                                       Basic Line Plot
 #------------------------------------------------------------------------------------------------#
-# linewidth
+# Grid & Legend:
+# 1. plt.grid()
+# 2. plt.legend()
+#
+# Display:
+# 3. plt.show()
+#
+#================================================================================================#
+
+
+
+
+#================================================================================================#
+# Structure-1: Grid
+#------------------------------------------------------------------------------------------------#
+# plt.grid()
 #
 # Statement:
-# The linewidth parameter is used to change the thickness
-# of a line in a plot.
+# The plt.grid() function is used to display grid lines
+# on the plot.
 #
 # Structure:
-# plt.plot(x, y, linewidth=value)
-#
-# The default linewidth is generally 1.5.
-# A larger value makes the line thicker.
+# plt.grid()
 #================================================================================================#
 
 #Example-1
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [2, 4, 6, 8, 10]
-plt.plot(x, y, linewidth=3)
+plt.plot(x, y)
+plt.grid()
 plt.show()
 
 
 #================================================================================================#
-# Structure-2: Marker Size
+# Structure-2: Legend
 #------------------------------------------------------------------------------------------------#
-# markersize
+# plt.legend()
 #
 # Statement:
-# The markersize parameter is used to change the size
-# of markers at the data points.
+# The plt.legend() function is used to display the legend
+# for the plotted data.
+#
+# A legend helps identify different lines or data series
+# in a graph.
 #
 # Structure:
-# plt.plot(x, y, marker="o", markersize=value)
-#
-# A larger value makes the marker larger.
+# plt.plot(x, y, label="label")
+# plt.legend()
 #================================================================================================#
 
-#Example-1:
+#Example-1
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [2, 4, 6, 8, 10]
-plt.plot(x, y, marker="o", markersize=10)
+plt.plot(x, y, label="y = 2x")
+plt.legend()
 plt.show()
+

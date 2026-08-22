@@ -1,59 +1,60 @@
 #================================================================================================#
-#                                     Line Customization
-
-#
-# 1. linestyle    → Changes the style of the line
-# 2. marker       → Adds markers to data points
-# 3. color        → Changes the color of the line
-# 4. linewidth    → Changes the thickness of the line
-# 5. markersize   → Changes the size of markers
-#================================================================================================#
-
-
-
-
-#================================================================================================#
-# Structure-1: Line Width
+#                                       Basic Line Plot
 #------------------------------------------------------------------------------------------------#
-# linewidth
+# Plotting:
+# 1. plt.plot()
+
+# Display:
+# 2. plt.show()
+#
+#================================================================================================#
+
+
+
+
+#================================================================================================#
+# Structure-1: Basic Line Plot
+#------------------------------------------------------------------------------------------------#
+# plt.plot(x, y)
 #
 # Statement:
-# The linewidth parameter is used to change the thickness
-# of a line in a plot.
+# The plt.plot() function is used to create a line plot
+# by connecting data points with straight lines.
 #
 # Structure:
-# plt.plot(x, y, linewidth=value)
+# plt.plot(x, y)
 #
-# The default linewidth is generally 1.5.
-# A larger value makes the line thicker.
+# x → Values for the X-axis
+# y → Values for the Y-axis
 #================================================================================================#
 
-#Example-1
+#Example
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [2, 4, 6, 8, 10]
-plt.plot(x, y, linewidth=3)
+plt.plot(x, y)
 plt.show()
 
 
 #================================================================================================#
-# Structure-2: Marker Size
+# Structure-2: X-axis Label
 #------------------------------------------------------------------------------------------------#
-# markersize
+# plt.xlabel("label")
 #
 # Statement:
-# The markersize parameter is used to change the size
-# of markers at the data points.
+# The plt.xlabel() function is used to add a label
+# to the X-axis.
 #
 # Structure:
-# plt.plot(x, y, marker="o", markersize=value)
-#
-# A larger value makes the marker larger.
+# plt.xlabel("label")
 #================================================================================================#
 
-#Example-1:
+#Example
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [2, 4, 6, 8, 10]
-plt.plot(x, y, marker="o", markersize=10)
+plt.plot(x, y)
+plt.xlabel("X-axis")
 plt.show()
+
+
