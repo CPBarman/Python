@@ -57,6 +57,61 @@
 
 
 ## File Handling
+- Introduction to File Handling
+  - What is a File?
+  - Why File Handling is Used
+  - Types of Files
+    - Text Files
+    - Binary Files
+  - Basic File Operations
+  - open() Function
+    - File Name
+    - File Mode
+    - File Path
+
+  - File Modes
+    - "r"  → Read
+     - "w"  → Write
+     - "a"  → Append
+     - "x"  → Create
+     - "t"  → Text Mode
+    - "b"  → Binary Mode
+  - close() Function
+  - Reading Files
+    - read()
+    - readline()
+    - readlines()
+    - Reading Files using Loop
+  - Writing Files
+    - write()
+    - writelines()
+    - Creating and Writing Files
+  - File Pointer and File Position
+    - tell()
+    - seek()
+    - File Pointer Concept
+  - Using the with Statement
+    -  with open()
+    - Automatic File Closing
+    - Best Practice for File Handling
+  - File Operations
+    - Checking Whether a File Exists
+    - Renaming Files
+    - Deleting Files
+    - Working with Directories
+  - Exception Handling in Files
+    - FileNotFoundError
+    - PermissionError
+    - try-except with Files
+  - Working with Different File Formats
+    - CSV Files
+    - JSON Files
+    - Binary Files
+  - Practical File Handling Projects
+    - Simple Text File Manager
+    - Student Information Storage
+    - Reading and Processing Data
+    - Simple Log File System
 
 
 
