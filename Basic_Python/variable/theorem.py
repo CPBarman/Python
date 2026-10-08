@@ -39,6 +39,9 @@ print(type(name))
 num = 20
 print(num)
 
+# Output:
+# 20
+
 
 #Example-6
 x = 10
