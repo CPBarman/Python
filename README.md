@@ -6,16 +6,13 @@
 - Variable
 - Operator
   - Arithmetic
-  - Increment
+  - Identity
   - Relation
   - Logical
   - Bitwise
   - Assignment
   - Special
-- Operand
-  - Unary
-  - Binary
-  - Ternary
+  - Membership
  
 
 
