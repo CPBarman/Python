@@ -2,31 +2,66 @@
 # Structure-1: for loop with range(stop)
 # for <variable> in <iterable>:
 #    <statement>
-# *variable: The loop variable that takes each value from the iterable.#
-# *iterable: A sequence (list, tuple, string, range, etc.) or any object that can return its elements one at a time#
+# *variable: The loop variable that takes each value from the iterable.
+# *iterable: A sequence (list, tuple, string, range, etc.) or any object that can return its elements one at a time
 #------------------------------------------------------------------------------------------------#
 
 #Example-1
 for i in range(5):
     print("Hello")
 
+# Output:
+# Hello
+# Hello
+# Hello
+# Hello
+# Hello
+
+
 #Example-2
 for i in range(5):
     print(i)
 
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+
 #Example-3
 for i in range(10):
     print(i)
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
 
 #Example-4
 word = "Python"
 for char in word:
     print(char)
 
+# Output:
+# P
+# y
+# t
+# h
+# o
+# n
+
 
 #------------------------------------------------------------------------------------------------#
 # Structure-2: for loop with range(start, stop)
-# for variable in range(start, stop):
+# for <variable> in range(start, stop):
 #    <statement>
 #------------------------------------------------------------------------------------------------#
 
@@ -34,9 +69,22 @@ for char in word:
 for i in range(1,6):
     print(i)
 
+# Output:
+# 1
+# 2
+# 3
+# 4
+# 5
+
 #Example-2
 for i in range(2,6):
     print(i)
+
+# Output:
+# 2
+# 3
+# 4
+# 5
 
 
 #------------------------------------------------------------------------------------------------#
@@ -54,7 +102,7 @@ for i in range(1, 11):
 
 #------------------------------------------------------------------------------------------------#
 #  Structure-4: for loop with range(start, stop, step)
-# for variable in range range(start, stop):
+# for <variable> in range(start, stop, step):
 #    <statement>
 #------------------------------------------------------------------------------------------------#
 
@@ -62,9 +110,19 @@ for i in range(1, 11):
 for i in range(2,6,1):
     print(i)
 
+# Output:
+# 2
+# 3
+# 4
+# 5
+
 #Example-2
 for i in range(2,6,3):
     print(i)
+
+# Output:
+# 2
+# 5
 
 
 #------------------------------------------------------------------------------------------------#
@@ -76,6 +134,11 @@ for i in range(2,6,3):
 #Example-1
 for index, value in enumerate(["a", "b", "c"]):
     print(index, value)
+
+# Output:
+# 0 a
+# 1 b
+# 2 c
 
 
 #------------------------------------------------------------------------------------------------#
@@ -90,10 +153,18 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
+
+
 #Example-2
 fruits = ["apple", "banana", "cherry"]
 for index, value in enumerate(fruits):
     print(index, value)
+
+# Output:
+# 0 apple
+# 1 banana
+# 2 cherry
+
 
 #Example-3 Using enumerate() with start=1
 fruits = ["apple", "banana", "cherry"]
