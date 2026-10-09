@@ -20,7 +20,7 @@
 - if Statement
 - if-else Statement
 - if-elif-else Statement
-- Nested if Statement
+- Nested Statement
 - Match-case 
 
 
