@@ -22,7 +22,7 @@
 - if-elif-else Statement
 - Nested Statement
 - Match-case 
-
+- Not Statement
 
 
 ## Loop
