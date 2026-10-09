@@ -44,7 +44,7 @@ else:
 
 
 #------------------------------------------------------------------------------------------------#
-# Structure-2: if Statement with User Input
+# Structure-2: if-else Statement with User Input
 # user_input = type(input("Input Name: "))
 # if user_input condition:
 #    statement
